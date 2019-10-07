@@ -4,7 +4,12 @@ En esta tarea, nos familiarizaremos con el API descrito en el capítulo del libr
 
 ## Questions ##
 
-1. **Stat**: Escriba su propia versión del comando ```stat```, la cual simplemente invoca la llamada del sistema ```stat()``` en un archivo o directorio. Imprima el tamaño del archivo, el número de bloques asignado, contador de referencias (links), etc. ¿Qué significa el contador de referencias (link count) de un directorio?, ¿cómo cambia el número de entradas en el directorio? Interfaces útiles: ```stat()```, naturalmente.
+1. **Stat**: Escriba su propia versión del comando ```stat```, la cual simplemente invoca la llamada del sistema ```stat()``` en un archivo o directorio. Imprima el tamaño del archivo, el número de bloques asignado, contador de referencias (links), etc.
+    *¿Qué significa el contador de referencias (link count) de un directorio?
+        R/Este indica el numero de las diferentes enlaces que tiene un directorio
+    *¿cómo cambia el número de entradas en el directorio?   
+        R/
+    Interfaces útiles: ```stat()```, naturalmente.
 
 2. **List Files**: Escriba un programa que liste los archivos en un directorio dado. Cuando sea llamado sin argumentos, el programa deberá imprimir solo los nombres del archivo. Cuando se invoque con la flag ```-l```, el programa deberá imprimir la información de cada archivo tal como, owner, group, permissions y otra información obtenida de la llamada de sistema ```stat()```. El programa deberá tomar un argumento adicional el cual es el directorio a leer, por ejemplo, ```myls -l directory```.  Si ningún directorio es dado, el programa deberá usar el directorio de trabajo actual. Interfaces útiles: ```stat()```, ```opendir()```, ```readdir()```, ```getcwd()```.
 
@@ -19,4 +24,3 @@ En esta tarea, nos familiarizaremos con el API descrito en el capítulo del libr
 2. [Aspectos básicos de C](https://github.com/repos-SO-UdeA/lab3)
 3. [Manejo dinámico de memoria en C](https://github.com/repos-SO-UdeA/lab5)
 4. [Manejo de archivos en C](https://github.com/repos-SO-UdeA/lab6)
-

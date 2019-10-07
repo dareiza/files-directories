@@ -1,0 +1,9 @@
+Este texto es para
+revisar el numero
+de las lineas
+que tiene
+
+un archivo
+inluyendo espacios 
+
+por enter
